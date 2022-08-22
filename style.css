@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Barlow";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#title{
+    align-self: flex-end;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#title span{
+    font-weight: bold;
+}
+
+#code_icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-90%);
+    height: 96px;
+}
