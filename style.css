@@ -70,12 +70,13 @@ body {
     
 }
 
-.icon {
+.icon, a{
     height: 50px;
     align-self: flex-end;
-    margin: 80px 12.5px;
-    
+    margin:12.5px;
+    margin-bottom: 80px;
 }
+
 
 #social_icons:hover{
     transform: translateY(0);
