@@ -6,18 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>GlassMorphism</title>
 </head>
 
 <body>
-    <div class="card hovered">
-        <img id="code_icon" src="../assets/icons8-código-fonte-96.png" alt="code">
-        <h1 id="title">Powered by <span>Talison</span></h1>
+    <div class="card">
+        
+            <img id="photo" src="./assets/photo.jpeg" alt="Me">
+            <h1 id="title">Talison Antunes</h1>
+            <p id="about">Front-End Developer</p>
+
+        
+
+        <div id="social_icons">
+            <img class="icon instagram" src="/assets/icons8-instagram.svg" alt="">
+            <img class="icon github" src="/assets/icons8-github.svg" alt="">
+            <img class="icon linkedin" src="/assets/icons8-linkedin-2.svg" alt="">
+        </div>
 
     </div>
+
+    <script src="/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare":1,
+	});
+    </script>
 </body>
 
 </html>
